@@ -35,6 +35,13 @@ class Pessoa {
         this.idade = v2;
         this.altura = v3;
     }
+    andar(andou) {
+        console.log(this.nome + ' andou ' + andou + ' ' + 'passos!')
+    }
 }
 let mateus = new Pessoa("mateus", 21, 1.86)
-console.log(mateus)
+let luan = new Pessoa("Luan", 15, 1.75)
+console.log('Olá meu nome é ' + mateus.nome + ' tenho ' + mateus.idade + ' anos ' + ' e ' + mateus.altura + ' de altura!')
+console.log('Olá meu nome é ' + luan.nome + ' tenho ' + luan.idade + ' anos ' + ' e ' + luan.altura + ' de altura!')
+mateus.andar(20)
+luan.andar(235)
