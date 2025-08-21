@@ -39,9 +39,18 @@ class Pessoa {
         console.log(this.nome + ' andou ' + andou + ' ' + 'passos!')
     }
 }
+//como criar objetos com o modelo:
+
 let mateus = new Pessoa("mateus", 21, 1.86)
 let luan = new Pessoa("Luan", 15, 1.75)
+
+//como exibir:
+// nome.atributo
+
 console.log('Olá meu nome é ' + mateus.nome + ' tenho ' + mateus.idade + ' anos ' + ' e ' + mateus.altura + ' de altura!')
+
 console.log('Olá meu nome é ' + luan.nome + ' tenho ' + luan.idade + ' anos ' + ' e ' + luan.altura + ' de altura!')
+
+// nome.método()
 mateus.andar(20)
 luan.andar(235)
