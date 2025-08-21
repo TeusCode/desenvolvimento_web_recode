@@ -67,12 +67,18 @@ class Aluno extends Pessoa {
         this.nota = nota;
     }
     trancarCurso() {
-        console.log(`${this.nome} Trancou o curso!`)
+        console.log(`${this.nome}: Trancou o curso!`)
     }
     pagarMensalidade() {
-        console.log(`${this.nome} Pagou a mensalidade do curso!`)
+        console.log(`${this.nome}: Pagou a mensalidade do curso!`)
     }
 };
 const aluno = new Aluno('Pedro', 21, 89, 1.96, 'masculino', 972349, 10)
 
+aluno.falar("Olá pessoal!")
+aluno.comer("Churrasco")
+aluno.andar()
+aluno.respirar()
 aluno.trancarCurso()
+aluno.pagarMensalidade() 
+
