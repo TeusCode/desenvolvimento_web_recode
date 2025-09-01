@@ -1,3 +1,103 @@
-*{
-    font-family:Arial, Helvetica, sans-serif;
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Página Inicial*/
+
+#menu {
+    width: 100%;
+    background-color: red;
+}
+
+#menu tr td {
+    text-align: center;
+    width: 25%;
+}
+
+#menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+#menu a:hover {
+    color: darkred;
+}
+
+#rodape {
+    position: absolute;
+    bottom: 0;
+    left: 40vw;
+}
+
+#rodape>h4 {
+    text-align: center;
+    color: red;
+}
+
+#rodape>p {
+    text-align: center;
+    font-size: 1em;
+
+}
+
+/*Página Produtos*/
+
+#produtos {
+    border: 0px;
+    width: 100%;
+}
+
+.produtos .descricao {
+    color: black;
+    font-size: 0.9em;
+}
+
+.produtos .descricao:hover {
+    cursor: pointer;
+    color: blue;
+    text-decoration: underline;
+}
+
+.produtos .precoAntigo {
+    color: gray;
+    font-size: 0.5;
+    text-decoration: line-through;
+}
+
+.produtos .precoNovo {
+    color: red;
+    font-size: 1.2em;
+}
+
+.produtos .precoNovo:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+/*Página Nossas lojas*/
+#nossasLojas tr th,
+#nossasLojas tr td {
+    text-align: left;
+    width: 30%;
+}
+
+/*Página Contatos*/
+#contatos tr td {
+    text-align: center;
+    width: 50%;
+}
+
+#contatos tr td p {
+    font-size: 1.2em;
+}
+
+#conversarConosco input {
+    width: 400px;
+    height: 30px;
+}
+
+#conversarConosco textarea {
+    width: 400px;
+    height: 200px;
 }
